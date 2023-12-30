@@ -8,6 +8,8 @@ typedef struct HiddenSingle_impl
     int value;
 } HiddenSingle;
 
+int findindex(Cell **arr, int size, int value);
+
 // find hidden single values (the value that is unique among all the candidates for a row, a collumn, or a box)
 int find_hidden_single_values(Cell **p_cells, int *hidden_single_values);
 

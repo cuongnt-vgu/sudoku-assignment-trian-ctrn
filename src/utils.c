@@ -220,3 +220,4 @@ void print_candidate_num(SudokuBoard *p_board)
         printf("\n");
     }
 }
+
